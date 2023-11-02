@@ -24,7 +24,7 @@ jobs:
           submodules: true
 
       ### Build ###
-      - name: Build 01.CICD
+      - name: Build lesson_1
         working-directory: ./lesson_1/
         run: |
              sudo apt-get update && sudo apt-get install cmake libboost-test-dev -y
